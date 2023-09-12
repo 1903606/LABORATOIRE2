@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">LABORATOIRE 2- Nathalia M.H</string>
+    <string name="info">Informations d\'un membre</string>
+    <string name="nom">Nom complet</string>
+    <string name="courriel">Courriel</string>
+    <string name="telephone">Télephone</string>
+    <string name="mdp">Mot de passe</string>
+    <string name="mdpconfirmation">Confirmation mot de passe</string>
+    <string name="afficher">Afficher</string>
+    <string name="condition">J\'accepte de recevoir l\'infolettre pour les nouveaux événements</string>
+    <string name="btnsave">Sauvegarder</string>
+    <string name="btnexit">Quitter</string>
+</resources>

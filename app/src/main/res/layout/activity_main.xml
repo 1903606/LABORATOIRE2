@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/laybtn"
+        android:layout_width="409dp"
+        android:layout_height="152dp"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="578dp">
+
+        <CheckBox
+            android:id="@+id/condition"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/condition" />
+
+        <Button
+            android:id="@+id/save"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btnsave" />
+
+        <Button
+            android:id="@+id/exit"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btnexit" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/info" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="184dp"
+        android:layout_height="210dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_centerInParent="true"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <EditText
+        android:id="@+id/nom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:layout_toRightOf="@+id/imageView"
+        android:layout_below="@+id/textView"
+        android:hint="@string/nom"
+        android:text="" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_toRightOf="@+id/imageView"
+        android:layout_below="@+id/nom"
+        android:hint="@string/courriel"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/telephone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_toRightOf="@+id/imageView"
+        android:layout_below="@+id/email"
+        android:hint="@string/telephone"
+        android:inputType="phone" />
+
+    <CheckBox
+        android:id="@+id/afficher2"
+        android:layout_width="128dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/laybtn"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="65dp"
+        android:layout_toRightOf="@+id/editTextTextPassword7"
+        android:text="@string/afficher" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="11"
+        android:layout_above="@+id/laybtn"
+        android:hint="@string/mdpconfirmation"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/mdp"
+        android:layout_above="@+id/editTextTextPassword6"
+        android:inputType="textPassword" />
+
+    <CheckBox
+        android:id="@+id/afficher1"
+        android:layout_width="128dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/afficher2"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="43dp"
+        android:layout_marginBottom="29dp"
+        android:layout_toRightOf="@+id/editTextTextPassword6"
+        android:text="@string/afficher" />
+
+
+</RelativeLayout>
